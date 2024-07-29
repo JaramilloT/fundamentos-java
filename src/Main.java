@@ -44,10 +44,10 @@ public class Main {
         return b;
     }
 
-    public static int octavo () {
+    public static String octavo () {
         float a = 123.5F;
-        String  b = new String(Float.toString(a));
-        return Integer.parseInt(b);
+        String  b = Float.toString(a);
+        return b;
     }
 
     public static int noveno () {
@@ -91,21 +91,56 @@ public class Main {
         x ^= 2;
         return x;
     }
+    public static int diesciseis(){
+        int x = 5;
+        int y = ++x;
+        return y;
+    }
 
-    public static int diesciseis () {
+    public static int diescisiete(){
+        int a = 5;
+        a++;
+        return a;
+    }
+
+    public static int diesciocho(){
+        int count = 1;
+        count--;
+        return count;
+    }
+
+    public static int diecinueve(){
+        int i = 5;
+        ++i;
+        return i;
+    }
+
+    public static int veinte(){
+        int i = 5;
+        i++;
+        return i;
+    }
+
+    public static int veintiuno(){
+        int x = 3;
+        x = x++;
+        return x;
+    }
+
+    public static int veintidos () {
         int i = 5;
         i += ++i + i++ + ++i;
         return i;
     }
 
-    public static int diescisiete () {
+    public static int veintitres () {
         double a = 5.6;
         int b = (int) a;
         b += ++b ;
         return b;
     }
 
-    public static int diesciocho () {
+    public static int veinticuatro () {
         double d = 5.7;
         int i = (int)d;
         i *= 2;
@@ -113,18 +148,44 @@ public class Main {
         return i;
     }
 
-    public static int diescinueve() {
+    public static int veinticinco() {
         int a = 2;
         double b = a * 2.0;
         return (int) b;
     }
 
-    public static int veinte() {
+    public static int veintiseis() {
         char c = 'X';
         c += 32;
         System.out.println(c);
         return (int) c;
     }
+
+    public static int veintisiete() {
+        long a = 123;
+        short b = (short) a;
+        b *= 3;
+        return b;
+    }
+
+    public static int  veintiocho () {
+        int x = 10;
+        x += (x++) + (++x);
+        return x;
+    }
+
+    public static int veintinueve () {
+        float a = 123.5F;
+        byte  b = (byte) a;
+        return b;
+    }
+
+    public static int treinta () {
+        int i = 257;
+        byte b = (byte)i;
+        return b;
+    }
+
 }
 
 

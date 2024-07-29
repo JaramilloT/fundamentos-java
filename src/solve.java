@@ -58,19 +58,49 @@ public class solve {
                 System.out.println("15). ¿Qué hace la siguiente operación? x ^= 2;  : " + Main.quince());
                 break;
             case 16:
-                System.out.println("16). ¿Cuál es el resultado de la siguiente expresión? : " + Main.diesciseis());
+                System.out.println("16). ¿Cuál es el valor de x e y después de estas operaciones? : " + Main.diesciseis());
                 break;
             case 17:
-                System.out.println("17). Escribe código para convertir un double a un int, y luego incrementa el resultado en 1 usando el operador de postincremento. : " + Main.diescisiete());
+                System.out.println("17). ¿Qué se imprimirá en la consola?. : " + Main.diescisiete());
                 break;
             case 18:
-                System.out.println("18). ¿Qué se imprimirá en la consola? : " + Main.diesciocho());
+                System.out.println("18). Escribe código que use el operador de decremento para disminuir una variable count en 1. : " + Main.diesciocho());
                 break;
             case 19:
-                System.out.println("19). Crea una expresión que use casteo y un operador de asignación compuesta para dividir un int por 2.0 y asignar el resultado a una variable double. : " + Main.diescinueve ());
+                System.out.println("19).¿Cuál es la diferencia entre ++i y i++? : " + Main.diecinueve ());
                 break;
             case 20:
-                System.out.println("20). ¿Qué se imprimirá en la consola? : " + Main.veinte());
+                System.out.println("20).¿Qué valor tendrá x después de esta operación? : " + Main.veinte());
+                break;
+            case 21 :
+                System.out.println("21). ¿Cuál es el resultado de la siguiente expresión? : " + Main.veintiuno());
+                break;
+            case 22:
+                System.out.println("22).Escribe código para convertir un double a un int, y luego incrementa el resultado en 1 usando el operador de postincremento. : " + Main.veintidos());
+                break;
+            case 23:
+                System.out.println("23). ¿Qué se imprimirá en la consola? : " + Main.veintitres());
+                break;
+            case 24:
+                System.out.println("24). Crea una expresión que use casteo y un operador de asignación compuesta para dividir un int por 2.0 y asignar el resultado a una variable double.? : " + Main.veinticuatro());
+                break;
+            case 25:
+                System.out.println("25). ¿Cuál es el resultado de la siguiente operación? : " + Main.veinticinco());
+                break;
+            case 26 :
+                System.out.println("26).Escribe código para convertir un long a un short, y luego usa un operador de asignación compuesta para multiplicarlo por 3.17.    : " + Main.veintiseis());
+                break;
+            case 27:
+                System.out.println("27). ¿Qué valor tendrá x después de estas operaciones? : " + Main.veintisiete());
+                break;
+            case 28:
+                System.out.println("28). Crea una expresión que use casteo para convertir un float a un byte, y luego usa el operador de predecremento. : " + Main.veintiocho());
+                break;
+            case 29:
+                System.out.println("29).  ¿Cuál es el resultado de la siguiente operación?: " + Main.veintinueve());
+                break;
+            case 30:
+                System.out.println("30). Escribe una expresión que combine casteo, un operador de asignación compuesta y un operador de incremento para convertir un double a un int, sumarle 5 y luego incrementarlo en 1.: " + Main.treinta());
                 break;
         }
 
